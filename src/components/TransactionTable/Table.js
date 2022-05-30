@@ -11,8 +11,8 @@ function Table() {
   };
   return (
     <div>
-      <h1>Transaction table</h1>
-
+      <h1 className="view">Transaction table</h1>
+    <div className="outer2-table">
       <div className="outer-table">
         <div className="heading-table">
           <div id="overview" className="table-tabs" onClick={handleClick}>
@@ -43,6 +43,7 @@ function Table() {
           <InnerRender value={content} />
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -39,19 +39,19 @@
   
   #s1:checked ~ #slide3, #s2:checked ~ #slide1,
   #s3:checked ~ #slide2 {
-    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+    box-shadow: 0 6px 10px 0 rgba(221, 13, 13, 0.3), 0 2px 2px 0 rgba(255, 43, 43, 0.2);
     transform: translate3d(-50%,0,-100px);
   }
   
   #s1:checked ~ #slide1, #s2:checked ~ #slide2,
   #s3:checked ~ #slide3 {
-    box-shadow: 0 13px 25px 0 rgba(0,0,0,.3), 0 11px 7px 0 rgba(0,0,0,.19);
+    box-shadow: 0 13px 25px 0 rgba(255, 41, 41, 0.3), 0 11px 7px 0 rgba(237, 46, 46, 0.19);
     transform: translate3d(0,0,0);
   }
   
   #s1:checked ~ #slide2, #s2:checked ~ #slide3,
   #s3:checked ~ #slide1 {
-    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+    box-shadow: 0 6px 10px 0 rgba(251, 32, 32, 0.3), 0 2px 2px 0 rgba(232, 66, 66, 0.2);
     transform: translate3d(50%,0,-100px);
   }
 

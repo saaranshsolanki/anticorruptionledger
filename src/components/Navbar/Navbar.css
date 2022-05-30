@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Jost", sans-serif;
+  font: 15px Arial;
 }
 
 a {
@@ -12,7 +13,7 @@ a {
 }
 
 a:visited {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 /* navbar style start  */
@@ -21,10 +22,11 @@ a:visited {
   width: 100%;
   height: 4rem;
   display: flex;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  box-shadow: rgba(234, 224, 224, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -50px;
   justify-content: space-between;
   flex-direction: row;
+  background-image: linear-gradient(to right,#A42781, #2C5AA6);
 }
 
 .logo {
@@ -32,6 +34,8 @@ a:visited {
   justify-content: flex-end;
   align-items: center;
   margin-left: 20px;
+  
+  /* background-image: linear-gradient(to right,#A42781, #2C5AA6); */
 }
 
 .menu-link {
@@ -39,4 +43,6 @@ a:visited {
   justify-content: flex-end;
   align-items: center;
   margin-right: 32px;
+  /* background-image: linear-gradient(to right,#A42781, #2C5AA6); */
+  
 }

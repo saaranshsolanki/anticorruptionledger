@@ -1,12 +1,45 @@
 .outer-table {
   border: 10px solid gray;
+  margin: 20px;
 }
 
 .heading-table {
   border: 6px solid green;
+  display: flex;
+  justify-content:flex-end;
+}
+  
+  
+.table-tabs{
+  height: 2rem;
+  
+
+}
+.table-tabs:hover {
+
+  background-color:#5B4B8A ;
+  border-radius: 0.8rem;
+  transition-duration: 1s;
+  box-shadow: 10px 6px 12px 2px red;
+}
+
+.outer2-table {
+  
+  height: 1000px;
+  
+    background-image: linear-gradient(to right,#FBC2D6, #A6C1EE);
+  
 }
 
 .table-tabs {
   border: 3px solid pink;
   cursor: pointer;
+}
+
+.view {
+  font-family: "Times New Roman", Times, serif;
+  background-image: linear-gradient(to right,#A42781, #2C5AA6);
+
+
+;
 }

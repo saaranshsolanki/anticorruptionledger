@@ -6,10 +6,12 @@ const About = () => {
       <h3>ABOUT US</h3>
       <div>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab hic culpa
-          rem consequuntur provident, reprehenderit quis vel incidunt laborum id
-          voluptatibus temporibus itaque pariatur veritatis consequatur at.
-          Deleniti, nobis repellat.
+        After indulging blockchain to our project, to confirm the donated amount, he/she can verify it through looking into the transaction ledger which would be displayed in our front-end transparently.Furthermore, the donated money could be tracked remotely by the user by viewing the organization's ledger.
+        
+       <p> Our team ventures to eradicate the problems caused by middle-man party exchange,mainly corruption.</p>
+       <p> Help us to join this movement by becoming an active donator or else your mom's a hoe.</p>
+
+
         </p>
       </div>
     </div>
